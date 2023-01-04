@@ -1,0 +1,96 @@
+.main {
+    // .main__container
+    &__container {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 110px;
+        @media (max-width: $small) {
+            flex-direction: column-reverse;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+    }
+    // .main__content
+    &__content {
+        flex: 0 0 45%;
+        @media (max-width: 1230px) {
+            flex: 1 1 60%;
+        }
+    }
+    // .main__title
+    &__title {
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 1.23;
+        color: $mainColor;
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+        @media (max-width: $small) {
+            font-size: 32px;
+        }
+    }
+    // .main__text
+    &__text {
+        font-family: Poppins;
+        font-size: 18px;
+        line-height: 1.56;
+        min-width: 388px;
+        &:not(:last-child) {
+            margin-bottom: 45px;
+        }
+        @media (max-width: $small) {
+            min-width: 0px;
+            font-size: 16px;
+        }
+    }
+    // .main__actions
+    &__actions {
+        display: flex;
+        align-items: center;
+        column-gap: 44px;
+        row-gap: 25px;
+        @media (max-width: $small) {
+            flex-direction: column;
+        }
+    }
+    // .main__button
+    &__button {
+        width: 174px;
+        height: 53px;
+    }
+    // .main__video
+    &__video {
+        font-family: Poppins;
+        font-weight: 600;
+        line-height: 1.5;
+        color: $actionColor;
+        transition: color 0.3s ease 0s;
+        text-align: center;
+        &:hover {
+            color: #ff7549;
+        }
+        &::before {
+            margin-right: 10px;
+        }
+    }
+    // .main__image
+    &__image {
+        flex: 1 1 55%;
+        @media (max-width: 1230px) {
+            flex: 1 1 40%;
+        }
+        @media (max-width: $small) {
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

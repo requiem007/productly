@@ -1,0 +1,35 @@
+.page {
+    // .page__main
+    &__main {
+    }
+    // .page__tools
+    &__tools {
+    }
+    // .page__strategies
+    &__strategies {
+    }
+}
+// ======================================================================================================================
+.title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.35;
+    color: $mainColor;
+    @media (max-width: $small) {
+        font-size: 24px;
+    }
+}
+// ======================================================================================================================
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 46px;
+    font-weight: 600;
+    line-height: 1.375;
+    color: $whiteColor;
+    background-color: $actionColor;
+    border-radius: 4px;
+}

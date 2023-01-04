@@ -1,0 +1,65 @@
+.header {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    // .header__container
+    &__container {
+        display: flex;
+        align-items: center;
+        height: 78px;
+        justify-content: space-between;
+        gap: 20px;
+        @media (max-width: $small) {
+            height: 68px;
+        }
+    }
+    // .header__logo
+    &__logo {
+    }
+    // .header__nav
+    &__nav {
+    }
+    // .header__actions
+    &__actions {
+        display: flex;
+        gap: 15px;
+    }
+}
+.nav {
+    // .nav__list
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+        flex-wrap: wrap;
+    }
+    // .nav__item
+    &__item {
+    }
+    // .nav__link
+    &__link {
+        color: inherit;
+        transition: color 0.3s ease 0s;
+        &:hover {
+            color: $actionColor;
+        }
+    }
+}
+
+.btn {
+    // .btn_sign-in
+    &_sign-in {
+        border: 1px solid #bcd0e5;
+        background-color: transparent;
+        color: #173a56;
+        transition: background-color 0.3s ease 0s;
+        &:hover {
+            background-color: #bcd0e5;
+        }
+    }
+    // .btn_sign-up
+    &_sign-up {
+        transition: background-color 0.3s ease 0s;
+        &:hover {
+            background-color: #ff7549;
+        }
+    }
+}
