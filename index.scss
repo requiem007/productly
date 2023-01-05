@@ -26,7 +26,13 @@
 @import "./src/styles/variables.scss";
 @import "./src/styles/cancel.scss";
 @import "./src/styles/common.scss";
+
+// sections
+
 @import "./src/components/header.scss";
 @import "./src/components/main.scss";
 @import "./src/components/tools.scss";
 @import "./src/components/strategies.scss";
+@import "./src/components/contact.scss";
+@import "./src/components/about.scss";
+@import "./src/components/footer.scss";

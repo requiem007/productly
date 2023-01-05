@@ -206,9 +206,52 @@
                         </div>
                     </div>
                 </section>
-                <section class="page__contact">
+                <section class="page__about about">
+                    <div class="about__container">
+                        <h3 class="about__title title">About Us</h3>
+                        <div class="about__text">
+                            <p>
+                                Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect
+                                them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).
+                            </p>
+                        </div>
+                        <div class="about__items">
+                            <div class="about__item">
+                                <div class="item__content">
+                                    <h4 class="item__title">Kathy Rosenberg</h4>
+                                    <div class="item__text"><p>Product Manager</p></div>
+                                    <a href="" class="item__link">kathyr@gmail.com</a>
+                                </div>
+                                <div class="item__image">
+                                    <img src="./src/assets/about/01.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="about__item">
+                                <div class="item__content">
+                                    <h4 class="item__title">Alexandra Boyarskaya</h4>
+                                    <div class="item__text"><p>Support Marketing Specialist</p></div>
+                                    <a href="" class="item__link">alexandrab@gmail.com</a>
+                                </div>
+                                <div class="item__image">
+                                    <img src="./src/assets/about/02.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="about__item">
+                                <div class="item__content">
+                                    <h4 class="item__title">Melani Amini</h4>
+                                    <div class="item__text"><p>Photographer</p></div>
+                                    <a href="" class="item__link">melania@gmail.com</a>
+                                </div>
+                                <div class="item__image">
+                                    <img src="./src/assets/about/03.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__contact contact">
                     <div class="contact__container">
-                        <div class="column__2">
+                        <div class="contact__column-2">
                             <div class="contact__content">
                                 <h3 class="contact__title title">Contact Us</h3>
                                 <div class="contact__text">
@@ -218,27 +261,76 @@
                                     </p>
                                 </div>
                                 <div class="contact__phone">
-                                    <div class="contact__phone-icon"></div>
+                                    <div class="contact__icon">
+                                        <img src="./src/assets/contact/phone.svg" alt="phone" />
+                                    </div>
                                     <a class="contact__link" href="tel:+375223450099">+375 (22) 345-00-99</a>
                                 </div>
                                 <div class="contact__email">
-                                    <div class="contact__phone-icon"></div>
-                                    <a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
+                                    <div class="contact__icon">
+                                        <img src="./src/assets/contact/mail.svg" alt="email" />
+                                    </div>
+                                    <a class="contact__link" href="mailto:emailname@gmail.com">emailname@gmail.com</a>
                                 </div>
                             </div>
                             <form action="#" class="contact__form">
-                                <div class="column__2">
-                                    <input type="text" placeholder="Your Name" />
-                                    <input type="email" placeholder="Your Email" />
+                                <div class="contact__column">
+                                    <input class="form__input" type="text" placeholder="Your Name" />
+                                    <input class="form__input" type="email" placeholder="Your Email" />
                                 </div>
-                                <textarea class="form__text" name="question"></textarea>
-                                <button class="form__button button">Send</button>
+                                <textarea class="form__text" name="question" placeholder="What do you want to ask?"></textarea>
+                                <div class="form__btn">
+                                    <button class="form__button button">Send</button>
+                                </div>
                             </form>
                         </div>
                     </div>
                 </section>
             </main>
-            <footer></footer>
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="footer__body">
+                        <div class="footer__logo">
+                            <a href=""><img src="./src/assets/Logo.svg" alt="logo" /></a>
+                        </div>
+                        <div class="footer__items">
+                            <div class="footer__item item-footer">
+                                <div class="item-footer__title">Quick Links</div>
+                                <ul class="item-footer__list">
+                                    <li class="item-footer__item">
+                                        <a href="" class="item-footer__link">About Us</a>
+                                    </li>
+                                    <li class="item-footer__item"><a href="" class="item-footer__link">Blog</a></li>
+                                    <li class="item-footer__item"><a href="" class="item-footer__link">Contact</a></li>
+                                    <li class="item-footer__item"><a href="" class="item-footer__link">FAQ</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__item item-footer">
+                                <div class="item-footer__title">Legal Stuff</div>
+                                <ul class="item-footer__list">
+                                    <li class="item-footer__item">
+                                        <a href="" class="item-footer__link">Disclaimer</a>
+                                    </li>
+                                    <li class="item-footer__item"><a href="" class="item-footer__link">Financing</a></li>
+                                    <li class="item-footer__item"><a href="" class="item-footer__link">Privacy Policy</a></li>
+                                    <li class="item-footer__item"><a href="" class="item-footer__link">Terms of Service</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__item item-footer">
+                                <div class="item-footer__title">Quick Links</div>
+                                <ul class="item-footer__list">
+                                    <li class="item-footer__item">
+                                        <a href="" class="item-footer__link">About Us</a>
+                                    </li>
+                                    <li class="item-footer__item"><a href="" class="item-footer__link">Blog</a></li>
+                                    <li class="item-footer__item"><a href="" class="item-footer__link">Contact</a></li>
+                                    <li class="item-footer__item"><a href="" class="item-footer__link">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
         <script src="./src/js/app.js"></script>
     </body>
