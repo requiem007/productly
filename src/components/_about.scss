@@ -21,12 +21,13 @@
     &__items {
         display: flex;
         column-gap: 62px;
+        // padding-right: 32px;
     }
     // .about__item
     &__item {
         display: flex;
         position: relative;
-        width: 345px;
+        width: calc(31% - 32px);
         padding: 36px;
         border-radius: 10px;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
@@ -47,10 +48,20 @@
     }
     // .item__link
     &__link {
+        font-size: 14px;
+        &:hover {
+            text-decoration: underline;
+        }
     }
     &__image {
         position: absolute;
         top: 20px;
         right: -32px;
+        img {
+            width: 98px;
+            height: 98px;
+            border-radius: 50%;
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+        }
     }
 }

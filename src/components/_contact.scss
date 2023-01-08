@@ -82,6 +82,10 @@
     &__link {
         color: inherit;
         padding-left: 11px;
+        transition: color 0.3s ease 0s;
+        &:hover {
+            color: $actionColor;
+        }
     }
     // .contact__email
     &__email {

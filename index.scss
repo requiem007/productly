@@ -4,6 +4,11 @@
     padding: 0 15px;
     min-height: 100%;
 }
+body {
+    &.lock {
+        overflow: hidden;
+    }
+}
 .wrapper {
     min-height: 100%;
     display: flex;

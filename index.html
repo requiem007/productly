@@ -11,23 +11,28 @@
         <div class="wrapper">
             <header class="header">
                 <div class="header__container">
+                    <button type="button" class="icon-menu"><span></span></button>
                     <div class="header__logo">
                         <img src="./src/assets/Logo.svg" alt="Productly" />
                     </div>
                     <nav class="header__nav nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="" class="nav__link">Home</a>
+                                <a data-goto=".main" href="" class="nav__link">Home</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__link">Services</a>
+                                <a data-goto=".tools" href="" class="nav__link">Services</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__link">About</a>
+                                <a data-goto=".about" href="" class="nav__link">About</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__link">Product</a>
+                                <a data-goto=".strategies" href="" class="nav__link">Product</a>
                             </li>
+                            <div class="nav__btn">
+                                <a href="" class="button btn_sign-in">Sign In</a>
+                                <a href="" class="button btn_sign-up">Sign Up</a>
+                            </div>
                         </ul>
                     </nav>
                     <div class="header__actions">
@@ -264,13 +269,13 @@
                                     <div class="contact__icon">
                                         <img src="./src/assets/contact/phone.svg" alt="phone" />
                                     </div>
-                                    <a class="contact__link" href="tel:+375223450099">+375 (22) 345-00-99</a>
+                                    <a target="_blank" class="contact__link" href="tel:+375223450099">+375 (22) 345-00-99</a>
                                 </div>
                                 <div class="contact__email">
                                     <div class="contact__icon">
                                         <img src="./src/assets/contact/mail.svg" alt="email" />
                                     </div>
-                                    <a class="contact__link" href="mailto:emailname@gmail.com">emailname@gmail.com</a>
+                                    <a target="_blank" class="contact__link" href="mailto:emailname@gmail.com">emailname@gmail.com</a>
                                 </div>
                             </div>
                             <form action="#" class="contact__form">
